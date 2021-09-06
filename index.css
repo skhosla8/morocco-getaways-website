@@ -1,0 +1,367 @@
+body {
+  position: relative;
+  overflow-x: hidden;
+}
+
+.jumbotron-1 {
+  background-image: url('https://i.ibb.co/2hk1gBX/Top-8-Hidden-Places-In-Morocco-1920x960.jpg');
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  color: #ffffff;
+  height: 300px;
+}
+.jumbotron-1 h1 {
+  font-size: 3em;
+  margin-top: -30px;
+  font-family: 'Times New Roman';
+}
+.jumbotron-1 p {
+  font-size: 1.5em;
+  margin-top: -15px;
+  font-family: 'Times New Roman';
+  color: #ff8c00;
+}
+
+/* Navigation Section */
+.navbar {
+  background-color: #000031;
+  padding-top: -40px;
+  padding-bottom: -40px;
+}
+.navbar .navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+.navbar .navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar .navbar-brand {
+  font-family: 'Times New Roman';
+  color: #ff8c00 !important;
+}
+.navbar .nav-item {
+  margin-left: 3vw;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  font-family: 'Times New Roman';
+  font-size: 1.2em;
+  color: #ffffff;
+}
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #ff8c00;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ff8c00;
+}
+
+/* Home Section */
+.offset:before {
+  display: block;
+  content: '';
+  height: 4em;
+  margin-top: -4em;
+}
+
+.narrow {
+  width: 75%;
+  margin: 1.5em auto;
+  padding-top: 3em;
+}
+.narrow h2 {
+  font-size: 2em;
+  font-family: 'Times New Roman';
+  font-weight: 700;
+}
+.narrow .heading-underline {
+  width: 4em;
+  height: 0.2em;
+  background-color: #ff8c00;
+  margin: 1em auto 0;
+}
+.narrow p {
+  font-size: 1.2em;
+  font-family: 'Times New Roman';
+  padding-top: 2em;
+}
+.narrow .btn-md {
+  border-width: medium;
+  border-radius: 0;
+  text-transform: uppercase;
+  background-color: #ff8c00;
+  font-size: 1.2em;
+  padding: 0.2em 1.2em;
+  margin: 1em;
+  color: white;
+  font-weight: 700;
+}
+.narrow .btn-md:hover {
+  background-color: #d87600;
+  color: #ffffff;
+}
+
+.carousel {
+  margin: 4em auto 0;
+  width: 800px;
+}
+@media (max-width: 768px) {
+  .carousel {
+    width: 600px;
+  }
+}
+@media (max-width: 660px) {
+  .carousel {
+    width: 100%;
+  }
+}
+.carousel img {
+  width: 600px;
+  height: 360px;
+}
+@media (max-width: 660px) {
+  .carousel img {
+    width: 100%;
+  }
+}
+.carousel .carousel-control-prev {
+  bottom: 2%;
+}
+.carousel .carousel-control-prev .carousel-control-prev-icon {
+  filter: invert(100%);
+}
+@media (max-width: 768px) {
+  .carousel .carousel-control-prev .carousel-control-prev-icon {
+    filter: none;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+  }
+}
+.carousel .carousel-control-next {
+  bottom: 2%;
+}
+.carousel .carousel-control-next .carousel-control-next-icon {
+  filter: invert(100%);
+}
+@media (max-width: 780px) {
+  .carousel .carousel-control-next .carousel-control-next-icon {
+    filter: none;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+  }
+}
+
+/* About Us Section */
+#aboutus .container {
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: auto;
+  margin: 2em auto;
+}
+#aboutus .container h2 {
+  font-size: 2em;
+  font-family: 'Times New Roman';
+  font-weight: 700;
+  margin-top: -3em;
+}
+@media (max-width: 575px) {
+  #aboutus .container h2 {
+    margin-top: -2em;
+  }
+}
+#aboutus .container img {
+  width: 100%;
+}
+#aboutus .container p {
+  font-size: 1.1em;
+  font-family: 'Times New Roman';
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+}
+@media (min-width: 767px) and (max-width: 990px) {
+  #aboutus .container p {
+    margin-top: 3rem;
+  }
+}
+@media (max-width: 765px) {
+  #aboutus .container p {
+    margin-top: 2.5rem;
+  }
+}
+#aboutus .container .row {
+  display: flex;
+  align-items: center;
+}
+
+/* Destinations Section */
+#destinations .container {
+  background-color: #f5f5f5;
+  padding-bottom: 1.5em;
+  margin: 2em auto;
+}
+#destinations .container .narrow {
+  width: 75%;
+  margin: 1.5em auto;
+  padding-top: 3em;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #destinations .container .narrow {
+    width: 100%;
+  }
+}
+#destinations .container .h3-heading {
+  font-size: 2em;
+  font-family: 'Times New Roman';
+  font-weight: 700;
+  margin-top: 0em;
+}
+#destinations .container .btn-sm {
+  background-color: #ffffff;
+  margin: -10.9em auto 0;
+  font-weight: 500;
+  border-radius: 1;
+  border-color: #000031;
+  border-width: 0.2em;
+  border-bottom-width: 0;
+}
+#destinations .container .btn-sm:hover {
+  border-color: #ff8c00;
+}
+#destinations img {
+  width: 400px;
+  height: 280px;
+  margin: 3em auto;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #destinations img {
+    height: 250px;
+  }
+}
+#destinations h4 {
+  color: #ff8c00;
+  font-family: 'Times New Roman';
+  margin-top: -2.5em;
+}
+#destinations p {
+  font-size: 1em;
+  font-family: 'Times New Roman';
+  font-weight: 300;
+  margin: -2em auto 0.5em;
+}
+
+/* Tours Section */
+#tours {
+  display: flex;
+  justify-content: center;
+}
+#tours h2 {
+  margin-top: -1em;
+}
+#tours .tours-item {
+  font-family: 'Times New Roman';
+  background-color: #f5f5f5;
+  border: 1px solid #ff8c00;
+  margin: 4em auto 0;
+  padding: 0;
+  width: 760px;
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#tours .tours-item:hover {
+  background-color: #ffffff;
+  border: 1px solid #000031;
+}
+@media (min-width: 768px) and (max-width: 800px) {
+  #tours .tours-item {
+    width: 650px;
+    height: 270px;
+  }
+}
+@media (max-width: 767px) {
+  #tours .tours-item {
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 576px) {
+  #tours .tours-item {
+    width: 450px;
+  }
+}
+#tours .tours-item .tours-item-image {
+  flex: 1;
+  height: 100%;
+}
+#tours .tours-item .tours-item-image img {
+  width: 100%;
+  height: 100%;
+}
+#tours .tours-item .tours-item-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1rem;
+}
+@media (max-width: 767px) {
+  #tours .tours-item .tours-item-text {
+    padding: 1rem 1rem;
+  }
+}
+#tours h4 {
+  color: #ff8c00;
+  font-weight: 500;
+  margin: 0;
+}
+#tours p {
+  font-size: 1em;
+  font-weight: 300;
+  margin: 0;
+}
+
+/* Footer Section */
+#footer {
+  background-color: #000031;
+  margin-top: 10em;
+  padding: 1em 0 1em;
+  color: #ffffff;
+  font-family: 'Times New Roman';
+  font-size: 0.9em;
+}
+#footer .footer-container {
+  padding: 0;
+}
+@media (max-width: 768px) {
+  #footer .footer-container {
+    padding: 0 3rem;
+  }
+}
+#footer img {
+  width: 250px;
+  margin: 1.5em 0;
+}
+#footer a {
+  color: white;
+}
+#footer svg.svg-inline--fa {
+  font-size: 1.6em;
+  margin: 1.2em 0.5em 0 0;
+}
+#footer svg.svg-inline--fa:hover {
+  color: #ff8c00 !important;
+}
+#footer hr {
+  width: 100%;
+  border-top: 0.2em solid #2e3060;
+  margin-top: 1em;
+  text-align: center;
+}
+
+/*# sourceMappingURL=index.css.map */
