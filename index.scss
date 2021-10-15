@@ -321,6 +321,10 @@ body {
       width: 450px;
     }
 
+    @media (max-width: 500px) {
+      width: 300px;
+    }
+
     .tours-item-image {
       flex: 1;
       height: 100%;
